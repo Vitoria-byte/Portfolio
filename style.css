@@ -1,0 +1,92 @@
+body{
+    height: 100vh;
+    background-color: #fcf7f7;
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/048/282/733/original/exceptrea-gamerroom-1-revisioned-0.gif?1649761105");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #f7f5f5;
+}
+
+.logo{
+max-width: 60px;
+padding-left: 100px;
+}
+
+header{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    background-image: url("");
+    background-attachment: fixed;
+    width: 100%;
+    border-bottom: 5px solid #faf7f7;
+    color: rgb(248, 245, 245);
+    z-index: 999;
+}
+.homeinfos{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.perfil{
+    justify-content: center;
+}
+
+.home{
+    font-size: 20px;
+    font-weight: bold;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    background-repeat: no-repeat;
+}
+
+.sobre{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: "Bangers", system-ui;
+    letter-spacing: 4px;
+}
+
+.cursos{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: "Bangers", system-ui;
+    letter-spacing: 4px;
+}
+
+.projetos{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: "Bangers", system-ui;
+    letter-spacing: 4px;
+}
+
+.footer {
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 5px solid #fcf8f8;
+    padding-top: 20px;
+  }
+  .footer_titulo {
+    font-size: 20px;
+  }
+  
+  .footer_texto {
+    color: rgb(175, 175, 175);
+    font-size: 16px;
+  }
